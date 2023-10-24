@@ -21,7 +21,7 @@ init:
     cargo install mdbook-toc
 
 init-builder:
-    # @just install-gh-bin https://github.com/rust-lang/mdBook/releases/download/v0.4.35/mdbook-v0.4.35-x86_64-unknown-linux-gnu.tar.gz mdbook
+    @just install-gh-bin https://github.com/rust-lang/mdBook/releases/download/v0.4.35/mdbook-v0.4.35-x86_64-unknown-linux-gnu.tar.gz mdbook
     # cargo install mdbook-i18n-helpers
     @just install-gh-bin https://github.com/badboy/mdbook-mermaid/releases/download/v0.12.6/mdbook-mermaid-v0.12.6-x86_64-unknown-linux-gnu.tar.gz mdbook-mermaid
     @just install-gh-bin https://github.com/badboy/mdbook-open-on-gh/releases/download/2.4.1/mdbook-open-on-gh-2.4.1-x86_64-unknown-linux-gnu.tar.gz mdbook-open-on-gh
