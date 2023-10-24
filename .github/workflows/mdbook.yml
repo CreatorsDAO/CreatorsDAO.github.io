@@ -42,10 +42,10 @@ jobs:
       - name: Install just
         run: |
            curl --proto '=https' --tlsv1.2 -sSf https://just.systems/install.sh | sudo bash -s -- --to /bin
-      # - name: Install cargo
-      #   run: |
-      #     curl --proto '=https' --tlsv1.2 https://sh.rustup.rs -sSf -y | sh
-      #     rustup update
+      - name: Install cargo
+        run: |
+          curl --proto '=https' --tlsv1.2 https://sh.rustup.rs -sSf -y | sh
+          rustup update
       - name: Init build environment
         run: just init-builder
 
