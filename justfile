@@ -14,7 +14,7 @@ set shell := ["pwsh", "-NoLogo", "-Command"]
 default: serve
 
 init:
-    # cargo install mdbook
+    cargo install mdbook
     cargo install mdbook-admonish
     cargo install mdbook-mermaid
     cargo install mdbook-open-on-gh
