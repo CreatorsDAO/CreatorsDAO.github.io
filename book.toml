@@ -38,9 +38,9 @@ no-section-label = true
 theme = "theme"
 additional-js  = ["theme/mermaid.min.js", "theme/mermaid-init.js"]
 additional-css = ["./mdbook-admonish.css", "theme/css/mdbook-admonish.css", "theme/css/open-in.css"]
-git-repository-url = "https://github.com/zkp-co-learning/zkp-co-learning.github.io"
+git-repository-url = "https://github.com/CreatorsDAO"
 open-on-text = "Found a bug?! [Edit this page on GitHub.]"
-edit-url-template = "https://github.com/zkp-co-learning/zkp-co-learning.github.io/edit/main/{path}"
+edit-url-template = "https://github.com/CreatorsDAO/CreatorsDAO.github.io/edit/main/{path}"
 curly-quotes = true   # replaces straight quotes with curly quotes
 
 
